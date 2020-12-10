@@ -1,0 +1,471 @@
+.regist{
+
+    height: 100%;
+}
+.login{
+    /* margin-top: -300px; */
+    /* margin-bottom: 105px;
+    padding-bottom: 3rem; */
+}
+
+.musthead{
+    padding: 11rem 0;
+  background: linear-gradient(to top, rgb(8, 10, 41) 0%, rgb(8, 10, 41,0.75) 100%), url("https://pmb.uty.ac.id/img/kampus/k1c.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.btn-login{
+    text-align: center !important;
+    border: 1px solid #fff;
+    background-color: honeydew;
+    color: rgb(12, 28, 177) !important;
+    padding: 0 10px !important;
+    font-weight: 100 !important;
+}
+
+.btn-login:hover{
+    border: 1px solid rgba(240, 255, 240, 0);
+    background-color: rgba(240, 255, 240, 0);
+    color: rgb(0, 64, 255) !important;
+    font-weight: bold !important;
+
+}
+
+.divider2{
+    border: 1.5px solid rgba(41, 129, 245);
+}
+
+.text-registration{
+    font-size: 25px;
+}
+
+.card-regis{
+    border-radius: 1%;
+}
+.card-login{
+    border-radius: 10px;
+
+}
+
+.btn-regis{
+    background-color: rgb(12, 28, 177) ;
+    color: white;
+}
+
+.btn-regis:hover{
+    background-color: rgba(41, 129, 245);
+    color: white;
+
+}
+
+.about
+{
+    -moz-box-shadow:0 10px 10px rgb(15, 18, 63);
+-webkit-box-shadow: 0 10px 10px rgb(15, 18, 63);
+box-shadow: 0 10px 10px rgb(15, 18, 63);
+}
+
+.shadow2
+{
+    box-shadow: 0 0.5rem 1rem rgba(41, 129, 245, 0.6) !important;
+}
+
+/* auto write */
+.line-1{
+    position: relative;
+    top: 50%;  
+    /* width: 24em; */
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 2.5s steps(44) 1s 1 normal both,
+             blinkTextCursor 1s steps(1000) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 13.3em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255, 255, 255, 0.37);}
+  to{border-right-color: transparent;}
+}
+
+@media only screen and (max-width: 600px) {
+    header.masthead h1 {
+        font-size: 1.5rem !important;
+    }
+  }
+
+/* load animation */
+.uty{
+    opacity: 0;
+    transform: translatey(30px);
+    transition: 2s;
+}
+
+.uty-go{
+    opacity: 1;
+    transform: translatey(0);
+}
+
+.btn-more{
+    opacity: 0;
+    transform: translatey(50px);
+    transition: 2s;
+}
+.btn-more-go{
+    opacity: 1;
+    transform: translatey(0);
+}
+
+/* scroll animation */
+.head-about{
+    opacity: 0;
+    transform: translatey(100px);
+    transition: 1.5s;
+}
+
+.head-about-go{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.head-services{
+    opacity: 0;
+    transform: translatey(100px);
+    transition: 1.5s;
+}
+.head-services-go{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.head-contact{
+    opacity: 0;
+    transform: translatey(100px);
+    transition: 1.5s;
+}
+.head-contact-go{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.alamat{
+    opacity: 0;
+    transform: translatey(100px);
+    transition: 1.5s;
+}
+.alamat-go{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.hp{
+    opacity: 0;
+    transform: translatey(100px);
+    transition: 2s;
+}
+.hp-go{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.email{
+    opacity: 0;
+    transform: translatey(100px);
+    transition: 2.5s;
+}
+.email-go{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.maps{
+    width: 100% !important;
+    opacity: 0;
+    transform: translatey(100px);
+    transition: 3s;
+}
+.maps-go{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.content-about{
+    opacity: 0;
+    transform: translatey(100px);
+    transition: 1.5s;
+}
+.content-about-go{
+    opacity: 1;
+    transform: translate(0);
+}
+
+
+.card2:hover{
+background-color: rgba(58, 16, 16, 0.068);
+}
+
+.card-1{
+    opacity: 0;
+    transform: translatey(200px);
+    transition: 1s;
+}
+.card-2{
+    opacity: 0;
+    transform: translatey(200px);
+    transition: 2s;
+}
+.card-3{
+    opacity: 0;
+    transform: translatey(200px);
+    transition: 2.5s;
+}
+
+.card-1-go{
+    opacity: 1;
+    transform: translate(0);
+}
+.card-2-go{
+    opacity: 1;
+    transform: translate(0);
+}
+.card-3-go{
+    opacity: 1;
+    transform: translate(0);
+}
+
+/* REGISTRATION */
+/*form styles*/
+#msform {
+    text-align: center;
+    position: relative;
+    /* margin-top: 30px; */
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*inputs*/
+#msform input,
+#msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #04066b;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+/*buttons*/
+#msform .action-button {
+    width: 100px;
+    background: rgb(12, 28, 177);
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px rgb(44, 64, 245);
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+}
+
+/*headings*/
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/*progressbar*/
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 24px;
+    height: 24px;
+    line-height: 26px;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    background: white;
+    border-radius: 25px;
+    margin: 0 auto 10px auto;
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1;
+    /*put it behind the numbers*/
+}
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: rgb(12, 28, 177);
+    color: white;
+}
+
+
+/* Not relevant to this form */
+.dme_link {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.dme_link a {
+    background: #FFF;
+    font-weight: bold;
+    color: rgb(12, 28, 177);
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px 25px;
+    font-size: 12px;
+}
+
+.dme_link a:hover,
+.dme_link a:focus {
+    background: #C5C5F1;
+    text-decoration: none;
+}
+
+input.invalid {
+    background-color: #ffdddd;
+}
+
+.invalid {
+    background-color: #ffdddd;
+}
+
+.disable-select {
+    visibility: hidden;
+}
+
+.masthead svg{
+    color: rgba(55, 78, 211, 0.26);
+    animation-name: arrowbawah;
+    animation-duration: 3s;
+    animation-iteration-count: 9999;
+  }
+.masthead svg:hover{
+    color: rgb(55, 78, 211);
+  }
+  
+  @keyframes arrowbawah {
+    0%   {
+    color: rgb(55, 78, 211, 0.5);
+    transform: translateY(10px);}
+    50%  {
+    color: rgba(55, 78, 211, 0.1);
+    transform: translateY(0);}
+    100% {
+    color: rgba(55, 78, 211, 0.5);
+    transform: translateY(10px);}
+  }

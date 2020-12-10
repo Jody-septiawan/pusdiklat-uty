@@ -1,0 +1,65 @@
+.footer
+{
+    padding: 0;
+    bottom: 0;
+    max-width: 100%;
+}
+
+.nav-item{
+    transition: 0.2s;
+}
+
+.sidebar .nav-item:hover{
+    border-left-color: #da2513;
+    /* background-color: #073770; */
+    border-left-style: solid;
+    border-left-width: 5px;
+    color: black;
+    left: -5px;
+}
+
+.border-kiri{
+    border-left-color: #edd251;
+    border-left-style: solid;
+    border-left-width: 5px;
+}
+
+.btn-group:hover>.dropdown-menu{
+    display: block;
+}
+
+.user-hapus:hover{
+background-color: #d9534f;
+color: white;
+}
+
+.user-edit:hover{
+    background-color: #1cc88a;
+}
+
+.card-1{
+    box-shadow: 8px 8px 20px 1px rgba(10, 23, 58, 0.445);
+}
+
+.icon-kelas{
+    font-size: 12px;
+}
+
+.text-kontak{
+    font-size: 8px;
+}
+
+.bg-content-presensi{
+    background-color: rgb(216, 215, 215);
+}
+
+.text-content-presensi{
+    color: black;
+}
+
+.my-bg-danger{
+    background-color: brown;
+}
+.my-bg-success{
+    background-color: green;
+}

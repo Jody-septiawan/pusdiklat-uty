@@ -1,0 +1,18 @@
+INSERT INTO spesifikasi (id_sertifikasi, spesifikasi)
+VALUES
+(2,"Software Development Fundamentals (98-361)"),
+(2,"Cloud Fundamentals (98-369)"),
+(2,"Mobility and Device Fundamentals (98-368)"),
+(2,"HTML5 Application Development Fundamentals (98-375)"),
+(2,"Introduction to Programming using Block-Based Languages (98-380)"),
+(2,"Introduction to Programming using Python (98-381)"),
+(2,"Introduction to Programming using JavaScript (98-382)"),
+(2,"Introduction to Programming using HTML and CSS(98-383)"),
+(2,"Introduction to Programming using Java (98-388)"),
+(2,"Windows Operating System Fundamentals (98-349) "),
+(2,"Windows Server Administration Fundamentals (98-365)"),
+(2,"Networking Fundamentals (98-366)"),
+(2,"Security Fundamentals (98-367)"),
+(2,"Database Fundamentals (98-364)"),
+
+
